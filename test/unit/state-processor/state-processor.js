@@ -38,7 +38,7 @@ describe('state-processor/state-processor', () => {
                     return (args, cb) => cb(null, job(args));
                 }
             });
-            const stateProcessor = new StateProcessor(opts.captureProcessorType);
+            const stateProcessor = new StateProcessor(opts.captureProcessorType, 4);
 
             stateProcessor.prepare(new AsyncEmitter());
             return stateProcessor.exec(opts.state, browserSession, opts.page);
@@ -107,7 +107,7 @@ describe('state-processor/state-processor', () => {
             return exec_({state})
                 .then(() => assert.calledWithMatch(job, {
                     execOpts: {
-                        referencePath: '/some/path',
+                        refImg: {path: '/some/path', size: null},
                         tolerance: 100500,
                         antialiasingTolerance: 200500
                     }

@@ -2,6 +2,151 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.5.2"></a>
+## [7.5.2](https://github.com/gemini-testing/gemini/compare/v7.5.1...v7.5.2) (2019-11-25)
+
+
+
+<a name="7.5.1"></a>
+## [7.5.1](https://github.com/gemini-testing/gemini/compare/v7.5.0...v7.5.1) (2019-07-29)
+
+
+### Bug Fixes
+
+* make executeJS method work properly with arrow function ([514fc1b](https://github.com/gemini-testing/gemini/commit/514fc1b))
+
+
+
+<a name="7.5.0"></a>
+# [7.5.0](https://github.com/gemini-testing/gemini/compare/v7.4.1...v7.5.0) (2019-07-25)
+
+
+### Features
+
+* **config:** add support for workers config option ([d7b7710](https://github.com/gemini-testing/gemini/commit/d7b7710))
+
+
+
+<a name="7.4.1"></a>
+## [7.4.1](https://github.com/gemini-testing/gemini/compare/v7.4.0...v7.4.1) (2019-03-20)
+
+
+### Bug Fixes
+
+* error maximum call stack size exceeded from looks-same ([0e18704](https://github.com/gemini-testing/gemini/commit/0e18704))
+
+
+
+<a name="7.4.0"></a>
+# [7.4.0](https://github.com/gemini-testing/gemini/compare/v7.3.0...v7.4.0) (2019-03-13)
+
+
+### Bug Fixes
+
+* notice about deprecated option replacement ([b066b16](https://github.com/gemini-testing/gemini/commit/b066b16))
+
+
+### Features
+
+* add diff clusters ([f80cf09](https://github.com/gemini-testing/gemini/commit/f80cf09))
+
+
+
+<a name="7.3.0"></a>
+# [7.3.0](https://github.com/gemini-testing/gemini/compare/v7.2.0...v7.3.0) (2019-01-29)
+
+
+### Bug Fixes
+
+* build diff image with using "antialiasingTolerance" prop ([7ff6e2a](https://github.com/gemini-testing/gemini/commit/7ff6e2a))
+
+
+### Features
+
+* add option "buildDiffOpts" to configure building diff image ([2c672df](https://github.com/gemini-testing/gemini/commit/2c672df))
+
+
+
+<a name="7.2.0"></a>
+# [7.2.0](https://github.com/gemini-testing/gemini/compare/v7.1.2...v7.2.0) (2019-01-24)
+
+
+### Features
+
+* use ref image from looks-same ([3a1a3f3](https://github.com/gemini-testing/gemini/commit/3a1a3f3))
+
+
+
+<a name="7.1.2"></a>
+## [7.1.2](https://github.com/gemini-testing/gemini/compare/v7.1.1...v7.1.2) (2019-01-10)
+
+
+### Bug Fixes
+
+* do not fall by memory in looks-same ([67b432e](https://github.com/gemini-testing/gemini/commit/67b432e))
+
+
+
+<a name="7.1.1"></a>
+## [7.1.1](https://github.com/gemini-testing/gemini/compare/v7.1.0...v7.1.1) (2018-12-26)
+
+
+### Bug Fixes
+
+* use gemini-core with stable looks-same ([9f8e97b](https://github.com/gemini-testing/gemini/commit/9f8e97b))
+
+
+
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/gemini-testing/gemini/compare/v7.0.1...v7.1.0) (2018-12-26)
+
+
+### Features
+
+* pass diff bounds to error from looks-same ([bdb3aab](https://github.com/gemini-testing/gemini/commit/bdb3aab))
+
+
+
+<a name="7.0.1"></a>
+## [7.0.1](https://github.com/gemini-testing/gemini/compare/v7.0.0...v7.0.1) (2018-12-14)
+
+
+
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/gemini-testing/gemini/compare/v6.0.0...v7.0.0) (2018-12-13)
+
+
+### Bug Fixes
+
+* do not convert ref image file to base64 to get size ([99c767f](https://github.com/gemini-testing/gemini/commit/99c767f))
+
+
+### Chores
+
+* drop node versions previous to 8 ([2eeddbb](https://github.com/gemini-testing/gemini/commit/2eeddbb))
+
+
+### BREAKING CHANGES
+
+* now supported version of node >= 8.0.0
+
+
+
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/gemini-testing/gemini/compare/v5.9.1...v6.0.0) (2018-11-29)
+
+
+### Features
+
+* emits image sizes on test execution events ([09b4318](https://github.com/gemini-testing/gemini/commit/09b4318))
+
+
+### BREAKING CHANGES
+
+* now on test execution events (TEST_RESULT, UPDATE_RESULT, RETRY, ERROR) emited image info (object) with path and size instead of only emit image path
+
+
+
 <a name="5.9.1"></a>
 ## [5.9.1](https://github.com/gemini-testing/gemini/compare/v5.9.0...v5.9.1) (2018-10-02)
 
